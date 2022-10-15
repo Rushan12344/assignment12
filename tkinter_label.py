@@ -1,0 +1,11 @@
+from tkinter import*
+w=Tk()
+l1=Label(text="First")
+l2=Label(text="Second")
+l3=Label(text="third")
+l4=Label(text="forth")
+l1.grid(row=0,column=0,rowspan=2,padx=200)
+l2.grid(row=0,column=1)
+l3.grid(row=0,column=5)
+l4.grid(row=0,column=3)
+w.mainloop()
